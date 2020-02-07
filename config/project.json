@@ -1,0 +1,105 @@
+{
+	"info": {
+		"name": "WheatApp",
+		"company": "Smartface User",
+		"webSite": "https://www.smartface.io",
+		"version": "1.0.0",
+		"runtimeVersion": "1100",
+		"description": "This is a weather app that shows 5 days forecast."
+	},
+	"config": {
+		"cache": {
+			"size": 50
+		},
+		"debug": {
+			"logs": false
+		},
+		"orientation": {
+			"portrait": true,
+			"upsideDown": true,
+			"landScapeLeft": true,
+			"landScapeRight": true
+		}
+	},
+	"api": {
+		"facebook": {
+			"appUID": "",
+			"appSecret": ""
+		},
+		"twitter": {
+			"consumerKey": "",
+			"consumerSecret": ""
+		},
+		"googleMaps": {
+			"androidKey": "01u81e3cP5lidl1HRJ55hoBH0N5_Kmlvku4EIYg",
+			"iosKey": ""
+		},
+		"adMob": {
+			"publisherId": ""
+		},
+		"googleCloudMessaging": {
+			"senderID": ""
+		},
+		"googlePlayServices": {
+			"inAppPurchaseProductKey": ""
+		}
+	},
+	"workspace": {
+		"autoUpdatePlayers": true
+	},
+	"build": {
+		"input": {
+			"ios": {
+				"scripts": "scripts",
+				"images": "images/iOS",
+				"assets": "assets",
+				"infoPlist": "config/iOS/Info.plist",
+				"urlIdentifier": "",
+				"urlSchemes": "",
+				"plugins": {
+					"codereaderios": {
+						"url": "https://az793023.vo.msecnd.net/smartface-bin/plugins/CodeReader/iOS/2.0.0/codereaderios.zip",
+						"path": "plugins/iOS/codereaderios.zip",
+						"active": false
+					}
+				},
+				"playerPath": null
+			},
+			"android": {
+				"scripts": "scripts",
+				"images": "images/Android",
+				"assets": "assets",
+				"manifest": "config/Android/AndroidManifest.xml",
+				"packageProfiles": "config/Android/PackageProfiles.xml",
+				"sign": {
+					"keystoreFile": "config/Android/smfdefault.keystore",
+					"keystorePass": "smartface",
+					"aliasName": "smartface",
+					"keyPass": "smartface"
+				},
+				"plugins": {
+					"aars": {},
+					"modules": {}
+				},
+				"playerPath": null
+			},
+			"keys": {
+				"project3DesKey": "QKjJk2dVqXvSocl6t5Ydmz1ez3rN5PeP",
+				"projectEncryptedKey": "wX3DyHWGjQU95noKcdfsq3vC502CJ5lIRqnLeAAhoLlWQ30puF5rh3rbLr3GXQD8rJZj+U7ihQvxWv1Mxa26ywvyhATayKsQM6rHiEUybLc8N1+PRJKo1jSI+SA/QVSGJ3K5H+2j8Sx5vKEXJ7/Bt+tt34r1aG047qsQ3hC3IV4="
+			}
+		},
+		"output": {
+			"ios": {
+				"outputFolder": "output/iOS",
+				"bundleIdentifier": "io.smartface.demo",
+				"targetedDeviceFamily": "universal"
+			},
+			"android": {
+				"outputFolder": "output/Android",
+				"packageName": "io.smartface.demo"
+			}
+		},
+		"tempFolder": "output/.tmp"
+	},
+	"projectID": "031858aa-0196-4f19-8416-0662dff3ded7"
+}

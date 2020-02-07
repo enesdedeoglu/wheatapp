@@ -1,0 +1,111 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "e891b86d",
+			"initialized": true,
+			"props": {
+				"children": [
+					"42b807d1",
+					"b7d28cff",
+					"af39-b56d-d9ff-34a6",
+					"879c-54a4-1481-8448",
+					"ab6c-265f-fb8b-118d"
+				],
+				"isRemovable": true,
+				"name": "page1",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": true
+			},
+			"type": "Page",
+			"userProps": {
+				"flexProps": {
+					"justifyContent": "SPACE_BETWEEN",
+					"alignItems": "STRETCH"
+				},
+				"orientation": "PORTRAIT",
+				"paddingBottom": 20,
+				"paddingLeft": 16,
+				"paddingRight": 16,
+				"safeAreaEnabled": true
+			},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "42b807d1",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "e891b86d"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"visible": true
+			}
+		},
+		{
+			"className": ".sf-headerBar",
+			"hiddenComponent": false,
+			"id": "b7d28cff",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "e891b86d",
+				"title": "Page1"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Page1",
+				"visible": true
+			}
+		},
+		{
+			"className": ".sf-textBox",
+			"hiddenComponent": false,
+			"id": "af39-b56d-d9ff-34a6",
+			"props": {
+				"autoHeight": 21.923078023470364,
+				"children": [],
+				"name": "cityBox",
+				"parent": "e891b86d",
+				"text": "  textBox1"
+			},
+			"type": "TextBox",
+			"userProps": {
+				"autoHeight": 21.923078023470364,
+				"text": "  textBox1"
+			}
+		},
+		{
+			"className": ".sf-button",
+			"id": "879c-54a4-1481-8448",
+			"props": {
+				"autoHeight": 21.923078023470364,
+				"children": [],
+				"name": "nextPage",
+				"parent": "e891b86d",
+				"text": "Göster"
+			},
+			"type": "Button",
+			"userProps": {
+				"autoHeight": 21.923078023470364,
+				"text": "Göster"
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "ab6c-265f-fb8b-118d",
+			"props": {
+				"children": [],
+				"name": "flexLayout1",
+				"parent": "e891b86d"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		}
+	]
+}
